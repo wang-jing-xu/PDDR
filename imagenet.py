@@ -1,18 +1,3 @@
-"""
-ImageNet training script.
-Including APEX (distributed training), and DALI(data pre-processing using CPU+GPU) provided by NIVIDIA.
-Author: anonymous
-Date: anonymous
-Email: anonymous
-
-Useage:
-python3 -m torch.distributed.launch --nproc_per_node=8 main -a old_resnet50 --fp16 --b 32
-
-
-
-"""
-
-
 import argparse
 import os
 import shutil
