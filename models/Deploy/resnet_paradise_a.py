@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch
-from paradiseA import ParaDiseAConv
+from .paradiseA import ParaDiseAConv
 
 __all__ = ['pd_a_resnet18', 'pd_a_resnet34', 'pd_a_resnet50', 'pd_a_resnet101',
            'pd_a_resnet152']

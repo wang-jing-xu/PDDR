@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch
-from acblock import *
+from .acblock import *
 
 class ParaDiseAConv(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=1, bias=False,deploy=False):
