@@ -24,7 +24,7 @@ We use the standard data augmentation strategies with [ResNet](https://github.co
 You can use the following commands to test a dataset.
 
 ```shell
-git clone https://github.com/wang-jing-xu/ParaDise.git
+git clone https://github.com/wang-jing-xu/PDDR.git
 cd ParaDise
 # change 8 to your GPU number, '--fp16' indicates half precision for fast training. '--b' batch size.
 # for more configures, see imagenet.py.
