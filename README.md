@@ -36,24 +36,24 @@ python3 -m torch.distributed.launch --nproc_per_node=8 imagenet.py -a pd_a_resne
 <br>
 Table:  Comparison results of single-crop classification accuracy (%) and complexity on the ImageNet validation set. Among them, the experimental data of <a href="https://arxiv.org/abs/2403.01123">ELA</a> and <a href="https://arxiv.org/abs/2403.01713">MCA</a> are sourced from the original paper.
 
-| Model | top-1 acc. |top-5 acc. |FLOPs(G)|Parameters(M)|Latency(cpu)|Download|
+| Model | top-1 acc. |top-5 acc. |Parameters(M)|FLOPs(G)|Latency(cpu)|Download|
 | --- | --- |--- |--- |--- |---|---|
-| ResNet18 | 69.6349 |89.0047|1.822|11.690|12ms|<a href="https://drive.google.com/file/d/1iUG2qiTIlUoyu3oBnABD5izG82GF2u7v/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
-| SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="https://drive.google.com/file/d/1s7ZB0MgzdVnyv2kc5NJIoJVbT1B7SazB/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1meCrTVMJuUXDJQkAO0B0Az1yJUHjBtNZ/view?usp=sharing">log</a>|
-| GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="https://drive.google.com/file/d/1jlomXQxhhjpi4QI155mE8Hz3-CqutzHU/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/11NP3mKovpX-_LtUsS2M4tBljhFjFeJ_d/view?usp=sharing">log</a>|
-| AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="https://drive.google.com/file/d/1jt51PEjJ9dGeL5EnOchvPvPR54qPCR4k/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1T2aE1IcTHzYyMMH2aeDYALda_O2PLqrG/view?usp=sharing">log</a>|
-| ELA-ResNet18 | 70.79 |89.75|1.83|11.71|12ms|- -|
-| MCA-ResNet18 | 71.23 |90.10|1.82|11.69|12ms|- -|
-| PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|**12ms**|<a href="https://drive.google.com/file/d/16-M4v6ZBxd-ljRAnfLYg9OhF_1zcjD6N/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1ZZApggNvq1DdxtQAoiVsopPx5SGugl8x/view?usp=sharing">log</a>|
-| PD-B-ResNet18 | **72.0873** |**90.4177**|1.822|11.762|**14ms**|<a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
-| ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="https://drive.google.com/open?id=1DMHhk99fG8rNZjE2wPh8VWZ5qIBOaYOf">model</a> <a href="https://drive.google.com/open?id=1KOM5BzyxQLZl2Aa5KIVOh6HmE7eQvsKa">log</a>|
-| SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="https://drive.google.com/open?id=1lOXZv0IskrLLbm_z7JqonR6KaQ7lRpKP">model</a> <a href="https://drive.google.com/open?id=1gl43ufL2Pvum-dZy8B4yAnnV3bl1BSi2">log</a>|
-| GE-ResNet50 | 77.1146 |**93.7107**|4.143|26.06|73ms|<a href="https://drive.google.com/file/d/1qTv5lWFY6E18h1c3hqWkNAs0n_Djri58/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1f4OSR2qiBp8dFvUB8fYWDG4hOqPPXG8A/view?usp=sharing">log</a>|
-| ELA-ResNet50 | 76.63 |93.35|4.14|25.57|12ms|- -|
-| MCA-ResNet50 | 76.61 |93.21|4.13|25.56|12ms|- -|
-| AC-ResNet50 |76.5804|93.1820|4.122|25.557|42ms|<a href="https://drive.google.com/file/d/15leIDi9UX3NJBNlXbp3_S5Z_RGmvQT-O/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1_58yZxi1JSy_jb-L9iXdTnI5z6nUeEax/view?usp=sharing">log</a>|
-| PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|**42ms**|<a href="https://drive.google.com/file/d/1IruxbflXSGyAw4JLxz4hDg-LU7H1F77H/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1gxgUoQF7NKVawiobVATb45d5t-fgASBc/view?usp=sharing">log</a>|
-| PD-B-ResNet50 |**77.3718** |93.4876|4.122|25.636|**44ms**|<a href="https://drive.google.com/file/d/1FYP-VVd8YUm2nl6EmO5s3sbdKMOA4C7o/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1WOkS96O8RGE3MeYkw5K_e0Znaym8Dt_n/view?usp=sharing">log</a>|
+| ResNet18 | 69.63 |89.00|11.69|1.82|12ms|<a href="https://drive.google.com/file/d/1iUG2qiTIlUoyu3oBnABD5izG82GF2u7v/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
+| SE-ResNet18 | 71.02 |89.92|11.78|1.82|13ms|<a href="https://drive.google.com/file/d/1s7ZB0MgzdVnyv2kc5NJIoJVbT1B7SazB/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1meCrTVMJuUXDJQkAO0B0Az1yJUHjBtNZ/view?usp=sharing">log</a>|
+| GE-ResNet18 | 70.40 |89.78|11.75|1.83|16ms|<a href="https://drive.google.com/file/d/1jlomXQxhhjpi4QI155mE8Hz3-CqutzHU/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/11NP3mKovpX-_LtUsS2M4tBljhFjFeJ_d/view?usp=sharing">log</a>|
+| AC-ResNet18 | 70.78 |89.68|11.69|1.82|12ms|<a href="https://drive.google.com/file/d/1jt51PEjJ9dGeL5EnOchvPvPR54qPCR4k/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1T2aE1IcTHzYyMMH2aeDYALda_O2PLqrG/view?usp=sharing">log</a>|
+| ELA-ResNet18 | 70.79 |89.75|11.71|1.83|12ms|-|
+| MCA-ResNet18 | 71.23 |90.10|11.69|1.82|12ms|-|
+| PD-A-ResNet18 | 70.99 |89.85|11.69|1.82|**12ms**|<a href="https://drive.google.com/file/d/16-M4v6ZBxd-ljRAnfLYg9OhF_1zcjD6N/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1ZZApggNvq1DdxtQAoiVsopPx5SGugl8x/view?usp=sharing">log</a>|
+| PD-B-ResNet18 | **72.09** |**90.42**|11.76|1.82|**14ms**|<a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
+| ResNet50 | 75.90|92.72|25.56|4.12|42ms|<a href="https://drive.google.com/open?id=1DMHhk99fG8rNZjE2wPh8VWZ5qIBOaYOf">model</a> <a href="https://drive.google.com/open?id=1KOM5BzyxQLZl2Aa5KIVOh6HmE7eQvsKa">log</a>|
+| SE-ResNet50 | 77.29|93.65|28.09|4.13|45ms|<a href="https://drive.google.com/open?id=1lOXZv0IskrLLbm_z7JqonR6KaQ7lRpKP">model</a> <a href="https://drive.google.com/open?id=1gl43ufL2Pvum-dZy8B4yAnnV3bl1BSi2">log</a>|
+| GE-ResNet50 | 77.11 |**93.71**|26.06|4.14|73ms|<a href="https://drive.google.com/file/d/1qTv5lWFY6E18h1c3hqWkNAs0n_Djri58/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1f4OSR2qiBp8dFvUB8fYWDG4hOqPPXG8A/view?usp=sharing">log</a>|
+| ELA-ResNet50 | 76.63 |93.35|25.57|4.14|12ms|-|
+| MCA-ResNet50 | 76.61 |93.21|25.56|4.13|12ms|-|
+| AC-ResNet50 |76.58|93.18|25.56|4.12|42ms|<a href="https://drive.google.com/file/d/15leIDi9UX3NJBNlXbp3_S5Z_RGmvQT-O/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1_58yZxi1JSy_jb-L9iXdTnI5z6nUeEax/view?usp=sharing">log</a>|
+| PD-A-ResNet50 | 76.69|93.32|25.56|4.12|**42ms**|<a href="https://drive.google.com/file/d/1IruxbflXSGyAw4JLxz4hDg-LU7H1F77H/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1gxgUoQF7NKVawiobVATb45d5t-fgASBc/view?usp=sharing">log</a>|
+| PD-B-ResNet50 |**77.37** |93.49|25.64|4.12|**44ms**|<a href="https://drive.google.com/file/d/1FYP-VVd8YUm2nl6EmO5s3sbdKMOA4C7o/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1WOkS96O8RGE3MeYkw5K_e0Znaym8Dt_n/view?usp=sharing">log</a>|
 
 
 
