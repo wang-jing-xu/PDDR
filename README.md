@@ -1,4 +1,4 @@
-# ParaDise: Exploring Parameter Disentanglement for Diverse Representations
+# Parameter Disentanglement for Diverse Representations
 
 <br><br>
 
