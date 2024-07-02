@@ -86,7 +86,7 @@ The only required operation is replacing the backbone to our ParaDise variants.
 Table: Detection performance on MS COCO benchmark.
 
 | Detector | Backbone | AP(50:95) | AP(50) | AP(75) | AP(s)|AP(m)|AP(l)|Download
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |Retina|ResNet50|36.2|55.9|38.5|19.4|39.8|48.3|[model](https://drive.google.com/open?id=1imZvUrwg6Vy6TFRLAsL62FsF-DyizZXR) [log](https://drive.google.com/open?id=14rRmHai_9ghL5oC-1DTTiLrt4w_HY0Yl)
 |Retina|PD-A-ResNet50|36.8|56.9|39.3|20.2|40.7|49.4|[model](https://drive.google.com/file/d/1sMZI_qxy8Y77jUr2LZgRhoIX91OqgFYI/view?usp=sharing) [log](https://drive.google.com/file/d/1SgbayaO1s3o092hxVsRzF5FpzD9ghael/view?usp=sharing)
 |Retina|PD-B-ResNet50|37.9|58.6|40.1|21.3|40.8|50.7|[model](https://drive.google.com/file/d/1sMZI_qxy8Y77jUr2LZgRhoIX91OqgFYI/view?usp=sharing) [log](https://drive.google.com/file/d/1SgbayaO1s3o092hxVsRzF5FpzD9ghael/view?usp=sharing)
