@@ -89,10 +89,10 @@ Table: Detection performance on MS COCO benchmark.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |Retina|ResNet50|32.37M|132.54G|36.2|55.9|38.5|19.4|39.8|48.3|[model](https://drive.google.com/open?id=1imZvUrwg6Vy6TFRLAsL62FsF-DyizZXR) [log](https://drive.google.com/open?id=14rRmHai_9ghL5oC-1DTTiLrt4w_HY0Yl)
 |Retina|PD-A-ResNet50|32.37M|132.54G|36.8|56.9|39.3|20.2|40.7|49.4|[model](https://drive.google.com/file/d/1sMZI_qxy8Y77jUr2LZgRhoIX91OqgFYI/view?usp=sharing) [log](https://drive.google.com/file/d/1SgbayaO1s3o092hxVsRzF5FpzD9ghael/view?usp=sharing)
-|Retina|PD-B-ResNet50|32.45M|132.54G|37.9|58.6|40.1|21.3|40.8|50.7|[model](https://drive.google.com/file/d/1sMZI_qxy8Y77jUr2LZgRhoIX91OqgFYI/view?usp=sharing) [log](https://drive.google.com/file/d/1SgbayaO1s3o092hxVsRzF5FpzD9ghael/view?usp=sharing)
+|Retina|PD-B-ResNet50|32.45M|132.54G|**37.9**|**58.6**|**40.1**|**21.3**|**40.8**|**50.7**|[model](https://drive.google.com/file/d/1sMZI_qxy8Y77jUr2LZgRhoIX91OqgFYI/view?usp=sharing) [log](https://drive.google.com/file/d/1SgbayaO1s3o092hxVsRzF5FpzD9ghael/view?usp=sharing)
 Cascade R-CNN|ResNet50|69.43M|51.44G|40.6|58.9|44.2|22.4|43.7|54.7|[model](https://drive.google.com/open?id=1jGUT2KsFggLSJMkH0cgJUJV_p_cSM-7f) [log](https://drive.google.com/open?id=13g-4XlMlySVUJyrvWeU5FVCA--cojaCk)
 Cascade R-CNN|PD-A-ResNet50|69.43M|51.44G|41.7|60.4|45.3|23.7|44.5|55.3|[model](https://drive.google.com/file/d/1aEWgHfN6bIxyG0l6-byntOB4xAE8HIf9/view?usp=sharing) [log](https://drive.google.com/file/d/1HxpcxiirZH8Eyc8yb-2Gnip06S7Q-MnL/view?usp=sharing)
-Cascade R-CNN|PD-B-ResNet50|69.51M|51.44G|42.1|61.0|45.7|24.3|45.3 |55.5|[model](https://drive.google.com/file/d/1aEWgHfN6bIxyG0l6-byntOB4xAE8HIf9/view?usp=sharing) [log](https://drive.google.com/file/d/1HxpcxiirZH8Eyc8yb-2Gnip06S7Q-MnL/view?usp=sharing)
+Cascade R-CNN|PD-B-ResNet50|69.51M|51.44G|**42.1**|**61.0**|**45.7**|**24.3**|**45.3**|**55.5**|[model](https://drive.google.com/file/d/1aEWgHfN6bIxyG0l6-byntOB4xAE8HIf9/view?usp=sharing) [log](https://drive.google.com/file/d/1HxpcxiirZH8Eyc8yb-2Gnip06S7Q-MnL/view?usp=sharing)
 
 <br>
 <br>
